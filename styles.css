@@ -57,7 +57,10 @@ body {
     opacity: 100%
   }
   .legend div span {
-    border-radius: 0%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
     display: inline-block;
     height: 10px;
     margin-top: 0px;

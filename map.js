@@ -89,7 +89,7 @@ map.on("click", "us_states_elections", function (e) {
         "</h4>" +
         "<h2>" +
         winner +
-        "</h2>" +
+        " majority </h2>" +
         "<p>" +
         wnrPerc +
         "% - (" +
