@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title> Race Map of Dallas + Fort Worth + Arlington </title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="menu"></nav>
+    <div id='map'></div>
+    <div id='title' class="title">
+        <h1> Dallas + Fortworth <br> Racial breakdown <br> by census tracts </h1>
+        <p> <b>You can hover and click each census tract to see the total population breakdown. </b> </p>
+        <hr>
+        <div id="income-legend" class="legend">
+            <h4> Census Tracts With </h4>
+            <div><span style="background-color: #ffffb3"></span> Hispanic majority </div>
+            <div><span style="background-color: #bebada"></span> Black majority </div>
+            <div><span style="background-color: #8dd3c7"></span> White majority </div>
+            <div><span style="background-color: #fb8072"></span> Asian majority </div>
+        </div>
+
+        <div id="turnstile-legend" class="legend2">
+            <p><em> Opacity represents population density. </em></p>
+            <div><span style="background-color: #ff4400; height:20px; width:20px; opacity: 0.2;"></span>&#8594;<span style="background-color: #ff4400; height:20px; width:20px; opacity: 0.8;"></span> </div>
+        </div>
+    </div>
+    <script type='text/javascript' src="map.js"></script>
+</body>
+
+</html>
